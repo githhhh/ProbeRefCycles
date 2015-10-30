@@ -15,6 +15,9 @@
 		8B06A20D1BE36CCD004C03CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B06A20B1BE36CCD004C03CC /* LaunchScreen.storyboard */; };
 		8B06A2181BE36CCD004C03CC /* ProbeRefCyclesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B06A2171BE36CCD004C03CC /* ProbeRefCyclesTests.m */; };
 		8B06A2231BE36CCD004C03CC /* ProbeRefCyclesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B06A2221BE36CCD004C03CC /* ProbeRefCyclesUITests.m */; };
+		8B06A2351BE36FA6004C03CC /* UINavigationController+Probe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B06A2321BE36FA6004C03CC /* UINavigationController+Probe.m */; };
+		8B06A2361BE36FA6004C03CC /* UIViewController+IsDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B06A2341BE36FA6004C03CC /* UIViewController+IsDealloc.m */; };
+		8B06A2391BE36FC3004C03CC /* NSObject+QYSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B06A2381BE36FC3004C03CC /* NSObject+QYSwizzle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		8B06A21E1BE36CCD004C03CC /* ProbeRefCyclesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProbeRefCyclesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B06A2221BE36CCD004C03CC /* ProbeRefCyclesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProbeRefCyclesUITests.m; sourceTree = "<group>"; };
 		8B06A2241BE36CCD004C03CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B06A2311BE36FA6004C03CC /* UINavigationController+Probe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Probe.h"; sourceTree = "<group>"; };
+		8B06A2321BE36FA6004C03CC /* UINavigationController+Probe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Probe.m"; sourceTree = "<group>"; };
+		8B06A2331BE36FA6004C03CC /* UIViewController+IsDealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IsDealloc.h"; sourceTree = "<group>"; };
+		8B06A2341BE36FA6004C03CC /* UIViewController+IsDealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IsDealloc.m"; sourceTree = "<group>"; };
+		8B06A2371BE36FC3004C03CC /* NSObject+QYSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+QYSwizzle.h"; sourceTree = "<group>"; };
+		8B06A2381BE36FC3004C03CC /* NSObject+QYSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+QYSwizzle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,12 @@
 		8B06A1F11BE36CCD004C03CC = {
 			isa = PBXGroup;
 			children = (
+				8B06A2371BE36FC3004C03CC /* NSObject+QYSwizzle.h */,
+				8B06A2381BE36FC3004C03CC /* NSObject+QYSwizzle.m */,
+				8B06A2311BE36FA6004C03CC /* UINavigationController+Probe.h */,
+				8B06A2321BE36FA6004C03CC /* UINavigationController+Probe.m */,
+				8B06A2331BE36FA6004C03CC /* UIViewController+IsDealloc.h */,
+				8B06A2341BE36FA6004C03CC /* UIViewController+IsDealloc.m */,
 				8B06A1FC1BE36CCD004C03CC /* ProbeRefCycles */,
 				8B06A2161BE36CCD004C03CC /* ProbeRefCyclesTests */,
 				8B06A2211BE36CCD004C03CC /* ProbeRefCyclesUITests */,
@@ -270,8 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B06A2361BE36FA6004C03CC /* UIViewController+IsDealloc.m in Sources */,
 				8B06A2051BE36CCD004C03CC /* ViewController.m in Sources */,
+				8B06A2391BE36FC3004C03CC /* NSObject+QYSwizzle.m in Sources */,
 				8B06A2021BE36CCD004C03CC /* AppDelegate.m in Sources */,
+				8B06A2351BE36FA6004C03CC /* UINavigationController+Probe.m in Sources */,
 				8B06A1FF1BE36CCD004C03CC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
