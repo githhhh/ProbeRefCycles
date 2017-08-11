@@ -15,9 +15,9 @@
 		8B06A20D1BE36CCD004C03CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B06A20B1BE36CCD004C03CC /* LaunchScreen.storyboard */; };
 		8B06A2181BE36CCD004C03CC /* ProbeRefCyclesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B06A2171BE36CCD004C03CC /* ProbeRefCyclesTests.m */; };
 		8B06A2231BE36CCD004C03CC /* ProbeRefCyclesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B06A2221BE36CCD004C03CC /* ProbeRefCyclesUITests.m */; };
-		8B06A2351BE36FA6004C03CC /* UINavigationController+Probe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B06A2321BE36FA6004C03CC /* UINavigationController+Probe.m */; };
-		8B06A2361BE36FA6004C03CC /* UIViewController+IsDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B06A2341BE36FA6004C03CC /* UIViewController+IsDealloc.m */; };
-		8B06A2391BE36FC3004C03CC /* NSObject+QYSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B06A2381BE36FC3004C03CC /* NSObject+QYSwizzle.m */; };
+		8B895C3D1F3DAAA3004C4A30 /* NSObject+QYSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B895C381F3DAAA3004C4A30 /* NSObject+QYSwizzle.m */; };
+		8B895C3E1F3DAAA3004C4A30 /* UINavigationController+Probe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B895C3A1F3DAAA3004C4A30 /* UINavigationController+Probe.m */; };
+		8B895C3F1F3DAAA3004C4A30 /* UIViewController+IsDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B895C3C1F3DAAA3004C4A30 /* UIViewController+IsDealloc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +54,12 @@
 		8B06A21E1BE36CCD004C03CC /* ProbeRefCyclesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProbeRefCyclesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B06A2221BE36CCD004C03CC /* ProbeRefCyclesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProbeRefCyclesUITests.m; sourceTree = "<group>"; };
 		8B06A2241BE36CCD004C03CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B06A2311BE36FA6004C03CC /* UINavigationController+Probe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Probe.h"; sourceTree = "<group>"; };
-		8B06A2321BE36FA6004C03CC /* UINavigationController+Probe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Probe.m"; sourceTree = "<group>"; };
-		8B06A2331BE36FA6004C03CC /* UIViewController+IsDealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IsDealloc.h"; sourceTree = "<group>"; };
-		8B06A2341BE36FA6004C03CC /* UIViewController+IsDealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IsDealloc.m"; sourceTree = "<group>"; };
-		8B06A2371BE36FC3004C03CC /* NSObject+QYSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+QYSwizzle.h"; sourceTree = "<group>"; };
-		8B06A2381BE36FC3004C03CC /* NSObject+QYSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+QYSwizzle.m"; sourceTree = "<group>"; };
+		8B895C371F3DAAA3004C4A30 /* NSObject+QYSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+QYSwizzle.h"; path = "Classes/NSObject+QYSwizzle.h"; sourceTree = "<group>"; };
+		8B895C381F3DAAA3004C4A30 /* NSObject+QYSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+QYSwizzle.m"; path = "Classes/NSObject+QYSwizzle.m"; sourceTree = "<group>"; };
+		8B895C391F3DAAA3004C4A30 /* UINavigationController+Probe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Probe.h"; path = "Classes/UINavigationController+Probe.h"; sourceTree = "<group>"; };
+		8B895C3A1F3DAAA3004C4A30 /* UINavigationController+Probe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Probe.m"; path = "Classes/UINavigationController+Probe.m"; sourceTree = "<group>"; };
+		8B895C3B1F3DAAA3004C4A30 /* UIViewController+IsDealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+IsDealloc.h"; path = "Classes/UIViewController+IsDealloc.h"; sourceTree = "<group>"; };
+		8B895C3C1F3DAAA3004C4A30 /* UIViewController+IsDealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+IsDealloc.m"; path = "Classes/UIViewController+IsDealloc.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,12 +90,7 @@
 		8B06A1F11BE36CCD004C03CC = {
 			isa = PBXGroup;
 			children = (
-				8B06A2371BE36FC3004C03CC /* NSObject+QYSwizzle.h */,
-				8B06A2381BE36FC3004C03CC /* NSObject+QYSwizzle.m */,
-				8B06A2311BE36FA6004C03CC /* UINavigationController+Probe.h */,
-				8B06A2321BE36FA6004C03CC /* UINavigationController+Probe.m */,
-				8B06A2331BE36FA6004C03CC /* UIViewController+IsDealloc.h */,
-				8B06A2341BE36FA6004C03CC /* UIViewController+IsDealloc.m */,
+				8B895C361F3DAA69004C4A30 /* Classes */,
 				8B06A1FC1BE36CCD004C03CC /* ProbeRefCycles */,
 				8B06A2161BE36CCD004C03CC /* ProbeRefCyclesTests */,
 				8B06A2211BE36CCD004C03CC /* ProbeRefCyclesUITests */,
@@ -153,6 +148,19 @@
 				8B06A2241BE36CCD004C03CC /* Info.plist */,
 			);
 			path = ProbeRefCyclesUITests;
+			sourceTree = "<group>";
+		};
+		8B895C361F3DAA69004C4A30 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8B895C371F3DAAA3004C4A30 /* NSObject+QYSwizzle.h */,
+				8B895C381F3DAAA3004C4A30 /* NSObject+QYSwizzle.m */,
+				8B895C391F3DAAA3004C4A30 /* UINavigationController+Probe.h */,
+				8B895C3A1F3DAAA3004C4A30 /* UINavigationController+Probe.m */,
+				8B895C3B1F3DAAA3004C4A30 /* UIViewController+IsDealloc.h */,
+				8B895C3C1F3DAAA3004C4A30 /* UIViewController+IsDealloc.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +230,7 @@
 				TargetAttributes = {
 					8B06A1F91BE36CCD004C03CC = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 7829SC3PEM;
 					};
 					8B06A2121BE36CCD004C03CC = {
 						CreatedOnToolsVersion = 7.1;
@@ -285,11 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B06A2361BE36FA6004C03CC /* UIViewController+IsDealloc.m in Sources */,
+				8B895C3E1F3DAAA3004C4A30 /* UINavigationController+Probe.m in Sources */,
+				8B895C3F1F3DAAA3004C4A30 /* UIViewController+IsDealloc.m in Sources */,
+				8B895C3D1F3DAAA3004C4A30 /* NSObject+QYSwizzle.m in Sources */,
 				8B06A2051BE36CCD004C03CC /* ViewController.m in Sources */,
-				8B06A2391BE36FC3004C03CC /* NSObject+QYSwizzle.m in Sources */,
 				8B06A2021BE36CCD004C03CC /* AppDelegate.m in Sources */,
-				8B06A2351BE36FA6004C03CC /* UINavigationController+Probe.m in Sources */,
 				8B06A1FF1BE36CCD004C03CC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7829SC3PEM;
 				INFOPLIST_FILE = ProbeRefCycles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = X.Y.ProbeRefCycles;
@@ -440,6 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7829SC3PEM;
 				INFOPLIST_FILE = ProbeRefCycles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = X.Y.ProbeRefCycles;
@@ -514,6 +525,7 @@
 				8B06A2291BE36CCD004C03CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B06A22A1BE36CCD004C03CC /* Build configuration list for PBXNativeTarget "ProbeRefCyclesTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +534,7 @@
 				8B06A22C1BE36CCD004C03CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B06A22D1BE36CCD004C03CC /* Build configuration list for PBXNativeTarget "ProbeRefCyclesUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +543,7 @@
 				8B06A22F1BE36CCD004C03CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

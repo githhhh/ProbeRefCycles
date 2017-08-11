@@ -1,9 +1,9 @@
 //
 //  UINavigationController+Probe.h
-//  githhhh
+//  QYER
 //
-//  Created by githhhh on 15/10/23.
-//  Copyright © 2015年 githhhh. All rights reserved.
+//  Created by 唐斌 on 15/10/23.
+//  Copyright © 2015年 QYER. All rights reserved.
 //
 
 /**

@@ -1,9 +1,9 @@
 //
 //  UINavigationController+Probe.m
-//  githhhh
+//  QYER
 //
-//  Created by githhhh on 15/10/23.
-//  Copyright © 2015年 githhhh. All rights reserved.
+//  Created by 唐斌 on 15/10/23.
+//  Copyright © 2015年 QYER. All rights reserved.
 //
 
 #import "UINavigationController+Probe.h"
@@ -27,7 +27,7 @@
      */
     
 #endif
-
+    
 }
 
 #pragma mark -
@@ -37,7 +37,7 @@
 -(void)probe_PushViewController:(UIViewController *)viewController animated:(BOOL)animated{
     if ([self.viewControllers count]>0) {
         UIViewController *lastVC = [self.viewControllers lastObject];
-        NSString *ivarName = GetIvarName(lastVC, viewController);
+        NSString *ivarName = GetIvarName(lastVC, viewController,lastVC.probeDeepSuperClassLevel);
         viewController.isStrongRef = ivarName?YES:NO;
         if (viewController.isStrongRef) {
             NSLog(@"****[%@]**被[%@]的成员变量[%@]强引用**，在%@ pop后将不会被释放，如有必要，请忽略该条信息.",[viewController class],[lastVC class],ivarName,[viewController class]);
