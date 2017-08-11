@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SuperViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : SuperViewController
 
 
 @end
